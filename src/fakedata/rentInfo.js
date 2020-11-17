@@ -1,36 +1,36 @@
 const rentInfo = [
     {
-        name: 'Washington Avenue',
+        title: 'Smart Place',
         image: 'https://i.imgur.com/j2Z9daI.png',
         price: "$194",
         key: '1',
     },
     {
-        name: 'Family Apartment Three',
+        title: 'Silent Home',
         image: 'https://i.imgur.com/aM6yjrX.png',
         price: "$356",
         key: '2',
     },
     {
-        name: 'Gorgeouse house',
+        title: 'Zy Zy Place',
         image: 'https://i.imgur.com/tPO2nlz.png',
         price: "$256",
         key: '3',
     },
     {
-        name: 'Luxury Villa',
+        title: 'Beauty Nest',
         image: 'https://i.imgur.com/tjMzI9P.png',
         price: "$345",
         key: '4',
     },
     {
-        name: 'Epic Huda Pa',
+        title: 'City House',
         image: 'https://i.imgur.com/A56ucY0.png',    
         price: "$536",
         key: '5',
     },
     {
-        name: 'Washington Avenue',
+        title: 'Queen Place',
         image: 'https://i.imgur.com/73DBK9W.png',
         price: "$283",
         key: '6',
