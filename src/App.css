@@ -1,0 +1,8 @@
+.hide-scroll-area{
+  height: 500px;
+  width: auto;
+  overflow: auto;
+}
+div::-webkit-scrollbar {
+  display: none;
+}
