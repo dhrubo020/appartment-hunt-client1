@@ -3,24 +3,12 @@ import { useParams } from 'react-router-dom';
 import './Info.css'
 
 const Info = () => {
-    const { detailsId, detailTitle, detailPrice } = useParams();
-
-    // const [rentDetail, setRentDetail] = useState([]);
-    // useEffect( () => {
-    //     fetch('https://murmuring-dawn-07666.herokuapp.com/allApartments')
-    //         .then(res => res.json())
-    //         .then(data => setRentDetail(data))
-    // }, [] )
-
-    // const rentPlaces = rentDetail.find(rentPlace => rentPlace._id === detailsId)
-    // console.log(rentPlaces.title);
+    const { detailTitle, detailPrice } = useParams();
 
     return (
         <div style={{ width: "700px", marginLeft: "127px" }}>
             <div>
                 <div className="d-flex">
-                    {/* <h2 style={{color: 'black'}}>{rentPlaces.title}</h2> */}
-                    {/* <img src={rentPlaces.imageUrl} alt=""/> */}
                     <h2 className="title">{detailTitle}</h2>
                     <span className="span">${detailPrice}</span>
                 </div>

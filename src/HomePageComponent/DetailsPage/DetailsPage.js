@@ -9,16 +9,6 @@ import Info from './Info/Info';
 const DetailsPage = () => {
     const { register, handleSubmit, errors } = useForm();
 
-    // const [rentD, setRentD] = useState([]);
-    // useEffect( () => {
-    //     fetch('https://murmuring-dawn-07666.herokuapp.com/allApartments')
-    //         .then(res => res.json())
-    //         .then(data => setRentD(data))
-    // }, [] )
-
-    // const rentPlaces = rentD.find(rentPlace => rentPlace._id === detailsId)
-    // console.log(rentPlaces.title);
-
     const onSubmit = (data) => {
         const newData = { ...data }
         newData.status = 'Pending'
